@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etCont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/colorAccent"
+                android:hint="Id Envio ->ST###"
+                android:inputType="text"
+                android:textColor="@color/text"
+                android:textColorHint="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/etRem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/colorAccent"
+                android:hint="Id Paquete -> BT###"
+                android:inputType="text"
+                android:textColor="@color/text"
+                android:textColorHint="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/etCons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/colorAccent"
+                android:hint="Id Depto Envia -> AT###"
+                android:inputType="text"
+                android:textColor="@color/text"
+                android:textColorHint="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/etGuia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/colorAccent"
+                android:hint="Ciudad Destino"
+                android:inputType="text"
+                android:textColor="@color/text"
+                android:textColorHint="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/etDest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/colorAccent"
+                android:hint="Ciudad Procedencia"
+                android:inputType="text"
+                android:text="León"
+                android:textColor="@color/text"
+                android:textColorHint="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/etDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/colorAccent"
+                android:hint="id departamento Recibe -> RT###"
+                android:inputType="text"
+                android:textColor="@color/text"
+                android:textColorHint="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/registrar"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

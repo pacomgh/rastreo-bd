@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BanBajio</string>
+    <string name="userText">Ingresa tu usuario</string>
+    <string name="passText">Ingresa tu contraseña</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="menu">Menú</string>
+    <string name="logoDesc">Logo BanBajio</string>
+    <string name="add">Agregar</string>
+    <string name="search">Buscar</string>
+    <string name="tvReg">Registro de nueva valija</string>
+    <string name="remitente">Remitente</string>
+    <string name="consignatario">Consignatarios</string>
+    <string name="guia">Guia</string>
+    <string name="destinatario">Destinatario</string>
+    <string name="fecha">Fecha</string>
+    <string name="contenido">Contenido</string>
+    <string name="registrar">Registrar</string>
+    <string name="searchDato">Ingresa el dato a buscar</string>
+    <string name="registrar_usuario">Registrar Usuario</string>
+
+</resources>
